@@ -5,10 +5,9 @@ In this Python based project my team has implemented image caption generation us
 
 Image Caption Generation utilises computer vision and natural language processing concepts to identify any image and provide a crisp and direct description of it in a natural language like English.
 
-In this Python project, we have implemented the caption generator using concepts of CNN and LSTM. Initially, the features of the image are extracted via Xception which is a CNN model trained on imagenet dataset. Later, the deatures are fed inito the LSTM model which is responsible for generating the image caption
+In this Python project, we have implemented the caption generator using concepts of CNN and LSTM. Initially, the features of the image are extracted via Xception which is a CNN model trained on imagenet dataset. Later, the features are fed into the LSTM model which is responsible for generating the image caption
 
-
- Dataset to construct our ML model:
+We have used the following dataset to construct our ML model:
  .Flicker8k_Dataset 
  .Flickr_8k_text
 The Flickr_8k_text folder contains file Flickr8k.token which is the main file of our dataset that contains image name and their respective captions separated by newline(“\n”). 
